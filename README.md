@@ -94,5 +94,5 @@ Then open `http://127.0.0.1:8000/` in your browser.
 
 ## 👤 Author
 
-- LinkedIn: https://www.linkedin.com/in/ahmed-ali
+- LinkedIn: https://www.linkedin.com/in/ahmed-ali-17ab763ab/
 - GitHub: https://github.com/Ahmedali1910
