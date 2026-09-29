@@ -1,0 +1,16 @@
+{% extends 'store/home.html' %}
+{% block content %}
+<h1> products grather than {{price}}</h1>
+
+
+{% for product in products %}
+    <div>
+      <h2>name: {{product.name}}</h2>
+      <h2>price: {{product.price}}</h2>
+      <h2>cattegory: {{product.category}}</h2>
+      <br>
+    </div>
+{% empty %}
+  <h2>No products found</h2>
+{% endfor %}
+{%endblock%}

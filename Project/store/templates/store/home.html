@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<nav>
+
+<h2><a href="{% url 'home' %}">Home Page</a></h2>
+   <h2><a href="{% url 'product_list' %}">product_list</a></h2>    
+   <h2><a href="{% url 'categories'%}">Category_list</a></h2>    
+   <h2><a href="{% url 'create' %}">create product</a></h2>  
+
+</nav>
+{% block content %}
+<h1>Welcome to Our E-Commerce Website</h1>
+
+<p>Manage your products, categories, and inventory easily.</p>
+{% endblock %}

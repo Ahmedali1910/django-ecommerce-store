@@ -1,0 +1,14 @@
+{% extends 'store/home.html' %}
+{% block content%}
+<h1>Category_list</h1>
+{% for category in categories %}
+    <div>
+      <h2>name: {{category.name}}</h2>
+      <h2>price: {{category.description}}</h2>
+      <h2><a href="{% url 'categorize' category.id %}" >products</a></h2>
+      <br>
+    </div>
+{% empty %}
+  <h2>No products found</h2>
+{% endfor %}
+{% endblock %}

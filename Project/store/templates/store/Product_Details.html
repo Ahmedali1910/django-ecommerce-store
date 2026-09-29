@@ -1,0 +1,17 @@
+{% extends 'store/home.html' %}
+
+{% block content %}
+<h1>Product details</h1>
+
+
+<div>
+      <h2>name: {{product.name}}</h2>
+      <h2>description: {{product.description}}</h2>
+      <h2>stock: {{product.stock}}</h2>
+      <h2>price: {{product.price}}</h2>
+      <h2>cattegory: <a href="{% url 'categorize' product.category.id%}" >{{product.category}}</a></h2>
+      <h2><a href="{% url 'search' product.price %}">Highest priced products</a>  </h2>
+      <h2><a href="{% url 'edit' product.id %}">Edit</a>  </h2>
+      <h2><a href="{% url 'delete' product.id %}">Delete</a>  </h2>
+</div>
+{%endblock%}

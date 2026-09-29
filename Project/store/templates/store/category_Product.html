@@ -1,0 +1,19 @@
+{% extends 'store/home.html' %}
+{% block content %}
+<h1>{{category}} products</h1>
+
+
+{% for product in products %}
+    <div>
+      <h2>name: {{product.name}}</h2>
+      <h2>price: {{product.price}}</h2>
+      <h2>cattegory: {{product.category}}</h2>
+      <h2><a href="{% url 'product_details' product.id %}">Details</a></h2>
+      <h2><a href="{% url 'edit' product.id %}">Edit</a>  </h2>
+      <h2><a href="{% url 'delete' product.id %}">Delete</a>  </h2>
+      <br>
+    </div>
+{% empty %}
+  <h2>No products found</h2>
+{% endfor %}
+{%endblock%}
