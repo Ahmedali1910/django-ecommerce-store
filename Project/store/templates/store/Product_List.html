@@ -5,7 +5,7 @@
     <div>
       <h2>name: {{product.name}}</h2>
       <h2>price: {{product.price}}</h2>
-      <h2>cattegory: <a href="{% url 'categorize' product.category.id %}" >{{product.category}}</a></h2>
+      <h2>category: <a href="{% url 'categorize' product.category.id %}" >{{product.category}}</a></h2>
        <h2><a href="{% url 'product_details' product.id %}">Details</a></h2>
        <h2><a href="{% url 'edit' product.id %}">Edit</a>  </h2>
        <h2><a href="{% url 'delete' product.id %}">Delete</a>  </h2>

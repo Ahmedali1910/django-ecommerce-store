@@ -4,7 +4,7 @@
 {% for category in categories %}
     <div>
       <h2>name: {{category.name}}</h2>
-      <h2>price: {{category.description}}</h2>
+      <h2>description: {{category.description}}</h2>
       <h2><a href="{% url 'categorize' category.id %}" >products</a></h2>
       <br>
     </div>
