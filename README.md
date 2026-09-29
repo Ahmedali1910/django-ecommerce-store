@@ -49,15 +49,15 @@ Each product belongs to one category (one-to-many relationship).
 
 | Home | Product List | Product Details |
 |:----:|:------------:|:---------------:|
-| ![Home](screenshots/home.png) | ![Products](screenshots/products.png) | ![Details](screenshots/details.png) |
+| ![Home](Project/screenshots/home.png) | ![Products](Project/screenshots/products.png) | ![Details](Project/screenshots/details.png) |
 
 | Create Product | Category Filter | Price Search |
 |:--------------:|:---------------:|:------------:|
-| ![Create](screenshots/create.png) | ![Category](screenshots/category.png) | ![Search](screenshots/search.png) |
+| ![Create](Project/screenshots/create.png) | ![Category](Project/screenshots/category.png) | ![Search](Project/screenshots/search.png) |
 
 | Models |
 |:------:|
-| ![Models](screenshots/models.png) |
+| ![Models](Project/screenshots/models.png) |
 
 ## 🚀 Getting Started
 
